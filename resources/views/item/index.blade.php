@@ -31,15 +31,17 @@
                     </table>
                 </div>
                 <div class="footer">
-                    <div class="d-flex justify-content-between">
-                        <div class="mt-3">
-                            <button class="btn btn-primary"><i class="fas fa-plus"></i> Cadastrar</button>
-                        </div>
-                        <div class="mt-3">
-                            {{$items->links()}}
-                        </div>
-                        <div class="mt-3">
-                            <button class="btn btn-danger"><i class="fas fa-archive"></i> Arquivos removidos</button>
+                    <div class="row">
+                        <div class="d-flex justify-content-between">
+                            <div class="mt-3">
+                                <button class="btn btn-primary"><i class="fas fa-plus"></i> Cadastrar</button>
+                            </div>
+                            <div class="mt-3">
+                                {{$items->links()}}
+                            </div>
+                            <div class="mt-3">
+                                <button class="btn btn-danger"><i class="fas fa-archive"></i> Arquivos removidos</button>
+                            </div>
                         </div>
                     </div>
                 </div>
